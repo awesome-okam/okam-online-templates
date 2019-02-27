@@ -1,0 +1,30 @@
+{
+  "name": "okam-online-templates",
+  "version": "0.0.1",
+  "description": "okam cli online templates",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf zips/* && gulp zip",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesome-okam/okam-online-templates.git"
+  },
+  "keywords": [
+    "okam",
+    "swan",
+    "wx",
+    "ant"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awesome-okam/okam-online-templates/issues"
+  },
+  "homepage": "https://github.com/awesome-okam/okam-online-templates#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-zip": "^4.2.0"
+  }
+}
