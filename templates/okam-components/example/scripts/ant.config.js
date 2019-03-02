@@ -1,6 +1,6 @@
 /**
  * @file Build ant mini program build config
- * @author ${author}
+ * @author
  */
 
 'use strict';

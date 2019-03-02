@@ -31,9 +31,9 @@ npm run init
 
     * `npm run dev:server`：    带 watch && 开发 Server 开发模式
 
-    * `npm run build`：         删掉构建重新构建（没有 watch && 开发 Server）
+    * `npm run dev:server`：    带 watch && 开发 Server 开发模式
 
-    * `npm run prod`：          生产环境构建
+    * `npm run prod`：          生产环境构建（没有 watch && 开发 Server）
 
 * 微信小程序运行命令
 

@@ -9,7 +9,6 @@
   "scripts": {
     "commit": "commit",
     "lint": "fecs ./src index.js --reporter=baidu --rule --type=vue,js",
-    "docs": "docsify serve docs",
     "test": "mocha --require intelli-espower-loader --require @babel/register \"test/tasks/**/*.spec.js\"",
     "test:debug": "mocha --inspect-brk --require intelli-espower-loader --require @babel/register \"test/tasks/**/*.spec.js\"",
     "test:coverage": "nyc npm run test"
@@ -42,7 +41,7 @@
     "okam",
     "components"
   ],
-  "author": "${author}",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",

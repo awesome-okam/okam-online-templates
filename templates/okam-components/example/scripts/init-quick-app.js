@@ -1,6 +1,6 @@
 /**
  * @file Quick app init script
- * @author ${author}
+ * @author
  */
 
 // 若要开发 快应用 先安装 hap：`npm install adb-devtools -g`

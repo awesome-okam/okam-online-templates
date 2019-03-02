@@ -1,6 +1,6 @@
 /**
  * @file 小程序入口
- * @author ${author}
+ * @author
  */
 
 'use strict';

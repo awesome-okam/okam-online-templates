@@ -1,6 +1,6 @@
 /**
  * @file test
- * @author ${author}
+ * @author
  */
 
 'use strict';

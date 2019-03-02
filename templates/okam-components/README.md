@@ -1,22 +1,13 @@
-# Okam-ui
-`Okam UI` 是一款基于 `Okam` 框架开发的组件
+# ${pkgName}
+`${pkgName}` 是基于 `Okam` 框架开发的组件
 
-## intro
-
-[小程序组件支持](http://agroup.baidu.com/okam/file/view/211486)
-
-## 快速开始
-
-### 前期准备
+### 目录
 
 ```
 .
 ├── README.md
-├── docs                // 文档模块
-│   ├── example         // 示例模块
-│   │   └── README.md   // 如何编写示例
-│   ├── md              // 示例模块
-│   └── README.md       // 如何编写文档
+├── example         // 示例模块
+│   └── README.md   // 如何编写示例
 ├── ...
 ├── src
 │   ├── common          // 公共模块
@@ -31,7 +22,7 @@
         └── demo.spec.js
 ```
 
-### dev
+### 开发
 * components
 
 ```
@@ -42,7 +33,7 @@ npm i
 * example
 
 ```
-cd docs/example
+cd example
 
 npm run init
 
@@ -56,18 +47,6 @@ npm run dev:quick
 
 ```
 npm run test
-```
-
-* docs
-
-```
-npm i docsify-cli -g
-
-cd docs
-
-docsify serve
-
-visit http://localhost:3000/
 ```
 
 * commit

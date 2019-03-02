@@ -1,6 +1,6 @@
 /**
  * @file commitlint.config.js
- * @author ${author}
+ * @author
  */
 
 module.exports = {

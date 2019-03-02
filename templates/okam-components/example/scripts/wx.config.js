@@ -1,6 +1,6 @@
 /**
  * @file Build weixin mini program build config
- * @author ${author}
+ * @author
  */
 
 'use strict';

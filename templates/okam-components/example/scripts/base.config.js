@@ -1,6 +1,6 @@
 /**
  * @file Build mini program base config
- * @author ${author}
+ * @author
  *
  * @see https://ecomfe.github.io/okam/#/build/index
  */
@@ -77,7 +77,7 @@ module.exports = {
 
     resolve: {
         alias: {
-            '${pkgName}': '${pkgName}/src'
+            // '${pkgName}': '${pkgName}/src'
         }
     },
 

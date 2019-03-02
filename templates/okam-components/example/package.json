@@ -2,12 +2,11 @@
   "private": true,
   "name": "example",
   "version": "0.1.0",
-  "description": "okam ui example",
+  "description": "okam component example",
   "main": "index.js",
   "scripts": {
     "lint": "fecs ./src --reporter=baidu --rule --type=vue,js",
-    "init": "npm i && ln -s ../../../../okam-ui node_modules",
-    "ln": "ln -s ../../../../../github/okam/packages/okam-build node_modules && ln -s ../../../../../github/okam/packages/okam-core node_modules",
+    "init": "npm i",
     "dev:base": "cross-env NODE_ENV=dev node scripts/build.js --watch",
     "prod:base": "node scripts/build.js --clean",
     "dev": "npm run dev:base",
@@ -51,7 +50,7 @@
       "quick_dist/**/*"
     ]
   },
-  "author": "${author}",
+  "author": "",
   "devDependencies": {
     "@babel/preset-env": "^7.1.6",
     "lint-staged": "^8.1.0",

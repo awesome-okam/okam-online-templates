@@ -1,6 +1,6 @@
 /**
  * @file Build script
- * @author ${author}
+ * @author
  */
 
 'use strict';

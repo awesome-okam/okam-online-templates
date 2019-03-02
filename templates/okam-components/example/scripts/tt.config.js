@@ -1,6 +1,6 @@
 /**
  * @file Build tt mini program config
- * @author ${author}
+ * @author
  */
 
 'use strict';

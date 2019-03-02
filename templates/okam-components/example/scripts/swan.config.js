@@ -1,6 +1,6 @@
 /**
  * @file Build swan smart program build config
- * @author ${author}
+ * @author
  */
 
 'use strict';

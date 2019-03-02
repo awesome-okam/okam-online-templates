@@ -1,6 +1,6 @@
 /**
  * @file Build quick app build config
- * @author ${author}
+ * @author
  */
 
 'use strict';
