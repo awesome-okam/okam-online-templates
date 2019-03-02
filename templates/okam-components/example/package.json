@@ -1,0 +1,78 @@
+{
+  "private": true,
+  "name": "example",
+  "version": "0.1.0",
+  "description": "okam ui example",
+  "main": "index.js",
+  "scripts": {
+    "lint": "fecs ./src --reporter=baidu --rule --type=vue,js",
+    "init": "npm i && ln -s ../../../../okam-ui node_modules",
+    "ln": "ln -s ../../../../../github/okam/packages/okam-build node_modules && ln -s ../../../../../github/okam/packages/okam-core node_modules",
+    "dev:base": "cross-env NODE_ENV=dev node scripts/build.js --watch",
+    "prod:base": "node scripts/build.js --clean",
+    "dev": "npm run dev:base",
+    "dev:clean": "npm run dev:base -- --clean",
+    "dev:server": "npm run dev:base -- --server",
+    "dev:debug": "cross-env NODE_ENV=dev node --inspect-brk scripts/build.js --watch --clean",
+    "prod": "npm run prod:base",
+    "dev:wx": "npm run dev:base -- --type wx",
+    "dev:wx:server": "npm run dev:base -- --server --type wx",
+    "dev:wx:clean": "npm run dev:base -- --clean --type wx",
+    "prod:wx": "npm run prod:base -- --type wx",
+    "dev:ant": "npm run dev:base -- --type ant",
+    "dev:ant:server": "npm run dev:base -- --server --type ant",
+    "dev:ant:clean": "npm run dev:base -- --clean --type ant",
+    "prod:ant": "npm run prod:base -- --type ant",
+    "dev:tt": "npm run dev:base -- --type tt",
+    "dev:tt:server": "npm run dev:base -- --server --type tt",
+    "dev:tt:clean": "npm run dev:base -- --clean --type tt",
+    "prod:tt": "npm run prod:base -- --type tt",
+    "dev:quick": "npm run dev:base -- --type quick",
+    "dev:quick:server": "npm run dev:base -- --server --type quick",
+    "dev:quick:clean": "npm run dev:base -- --clean --type quick",
+    "prod:quick": "npm run prod:base -- --type quick"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,vue}": [
+        "fecs --reporter=baidu --rule --type=vue,js"
+      ]
+    },
+    "ignore": [
+      "dist/**/*",
+      "wx_dist/**/*",
+      "ant_dist/**/*",
+      "tt_dist/**/*",
+      "quick_dist/**/*"
+    ]
+  },
+  "author": "${author}",
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.6",
+    "lint-staged": "^8.1.0",
+    "husky": "^1.2.0",
+    "fecs": "^1.6.4",
+    "json5": "^2.1.0",
+    "connect": "^3.6.6",
+    "@babel/core": "^7.1.6",
+    "cross-env": "^5.2.0",
+    "okam-build": "^0.4.20",
+    "okam-plugin-tinyimg": "^0.1.4",
+    "postcss": "^7.0.6",
+    "postcss-url": "^8.0.0",
+    "promise-polyfill": "^8.1.0",
+    "regenerator-runtime": "^0.13.1",
+    "stylus": "^0.54.5"
+  },
+  "engine": {
+    "node": ">= 8"
+  },
+  "dependencies": {
+    "okam-core": "^0.4.13"
+  }
+}

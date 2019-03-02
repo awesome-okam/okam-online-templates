@@ -1,0 +1,15 @@
+{
+    appid: '11716621',
+    description: 'okam ui example',
+    projectname: 'example',
+    _ttEnv: {
+        appid: '体验appId',
+        setting: {
+            urlCheck: true,
+            es6: true,
+            postcss: true,
+            minified: true,
+            newFeature: true
+        }
+    }
+}

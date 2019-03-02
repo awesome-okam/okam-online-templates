@@ -1,0 +1,23 @@
+// 省略
+// 多行截断并省略，仅在 webkit 下支持
+ellipsis($line = 1)
+    overflow: hidden
+    text-overflow: ellipsis
+
+    if $line == 1
+        white-space: nowrap
+    else
+        display: -webkit-box
+        -webkit-line-clamp: $line
+        -webkit-box-orient: vertical
+
+
+// 清除浮动
+clearfix()
+    &:after,
+    &:before
+        content: ' '
+        display: table
+
+    &:after
+        clear: both
